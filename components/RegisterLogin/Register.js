@@ -34,7 +34,7 @@ export default class componentName extends Component {
                     <Animatable.View  style={{ width: '100%' }} animation={this.state.shakeState} iterationCount={1} direction="alternate-reverse">
 
                         <Button  onPress={()=>console.log(this.state)} block warning style={formStyles.buttonStyles}>
-                            <Text>LOGIN</Text>
+                            <Text>LOGINTEST</Text>
                         </Button>
                     </Animatable.View>
 
